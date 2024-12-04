@@ -1,0 +1,14 @@
+//let take example of eventloop ;
+console.log('manu');
+document.addEventListener(onclick, function () {
+    console.log('hey')
+});
+console.log('shukla');
+
+// in event loop first console print and empty in stack.
+//then eventlistner will print in stack in function will handover to the browser and empty the stack.
+// function will go the queue , and it will execute only when stack is empty.
+// this is ASYNCHRONUS JAVASCRIPT 
+//loupe-robert phillip
+
+console.log(10 + '10');
