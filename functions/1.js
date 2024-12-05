@@ -58,13 +58,39 @@
 // console.log(c) this will run as var is global scope
 
 // child Function can access thier parent function
-// function parent() {
-//     let username = "manu";
+function parent() {
+    let username = "manu";
 
-//     function child() {
-//         let name = "mayank";
-//         console.log(username)
+    function child() {
+        let name = "mayank";
+        console.log(username)
+    }
+    child()
+}
+parent()
+
+// if (true) {
+//     const username = "manu"
+//     if (username === "manu") {
+//         const website = " youtube"
+//         console.log(username + website)
+//         // console.log(website);
 //     }
-//     child()
+//     console.log(website);
+//     // console.log(username)
 // }
-// parent()
+// console.log(username)
+
+// function addone(num) {
+//     return num + 1
+// }
+// console.log(addone(-2))
+
+// const addTwo = function (num) {
+//     return num + 2
+// }
+// console.log(addTwo(5))
+
+// var manu = 10
+// let mayank = 20
+// mayank will not print window as let didnt attach in window only var works here
