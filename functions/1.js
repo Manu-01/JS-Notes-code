@@ -24,7 +24,7 @@
 // }
 // console.log(calculatePrice(10, 20, 30, 40, 50))
 
-//funtions using object
+                          //funtions using object
 // const user = {
 //     name: "manu",
 //     age: 25
@@ -58,16 +58,16 @@
 // console.log(c) this will run as var is global scope
 
 // child Function can access thier parent function
-function parent() {
-    let username = "manu";
+// function parent() {
+//     let username = "manu";
 
-    function child() {
-        let name = "mayank";
-        console.log(username)
-    }
-    child()
-}
-parent()
+//     function child() {
+//         let name = "mayank";
+//         console.log(username)
+//     }
+//     child()
+// }
+// parent()
 
 // if (true) {
 //     const username = "manu"
@@ -94,3 +94,23 @@ parent()
 // var manu = 10
 // let mayank = 20
 // mayank will not print window as let didnt attach in window only var works here
+
+// arrow function
+// const addOne = (num) => {
+    //     return num + 1
+    // }
+    // console.log(addOne(5))
+
+    // const addOne = (num) => num + 1
+    // console.log(addOne(5))
+
+    // const addOne = num => num + 1
+    // console.log(addOne(5))
+    
+    // const addTwo = (num1, num2) => num1 + num2
+    // console.log(addTwo(5, 6))
+    
+  //  IIFE  
+    // (function(){
+    //     console.log("manu")
+    // })();
