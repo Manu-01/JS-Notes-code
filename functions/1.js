@@ -24,7 +24,7 @@
 // }
 // console.log(calculatePrice(10, 20, 30, 40, 50))
 
-                          //funtions using object
+//funtions using object
 // const user = {
 //     name: "manu",
 //     age: 25
@@ -95,35 +95,93 @@
 // let mayank = 20
 // mayank will not print window as let didnt attach in window only var works here
 
-// arrow function
+// arrow function ()=> or
+
+// (()=>{
+// use return because we create a scope
+// })
+
 // const addOne = (num) => {
-    //     return num + 1
-    // }
-    // console.log(addOne(5))
+//     return num + 1
+// }
+// console.log(addOne(5))
 
-    // const addOne = (num) => num + 1
-    // console.log(addOne(5))
+// const addOne = (num) => num + 1
+// console.log(addOne(5))
 
-    // const addOne = num => num + 1
-    // console.log(addOne(5))
+// const addOne = num => num + 1
+// console.log(addOne(5))
 
-    // const addTwo = (num1, num2) => num1 + num2
-    // console.log(addTwo(5, 6))
+// const addTwo = (num1, num2) => num1 + num2
+// console.log(addTwo(5, 6))
 
-  //  IIFE  
-    // (function(){
-    //     console.log("manu")
-    // })();
+//  IIFE
+// (function(){
+//     console.log("manu")
+// })();
 
-    // there are mainly five types of function
-    // 1. Named function
-    // 2. Anonymous function
-    // 3. Arrow function
-    // 4. IIFE function
-    // 5. Generator function
-    // 6. Callback function
-    // 7. Higher order function
-    // 8. Pure function
-    // 9. Impure function
-    // 10. Recursive function
-    // 11. Currying function
+// (() => console.log(1))(); // iife arrow function
+
+// there are mainly five types of function
+
+// 1. Named function
+// function manu() {
+//   console.log("manu")
+// }
+
+// 2. Anonymous function
+// function() {
+//   console.log("manu")
+// }
+
+// 3. Arrow function
+// () => console.log("manu")
+
+// 4. IIFE function
+// (function () {
+//   console.log("manu")
+// })();
+
+// 6. Callback function
+// function manu(callback) {
+//   callback();
+// }
+
+// 7. Higher order function
+// function manu(callback) {
+//   callback();
+// }
+
+// 10. Recursive function
+// function manu() {
+//   console.log("manu")
+//   manu()
+// }
+
+// 11. Currying function
+// function manu(a, b) {
+//   return a + b
+// }
+
+// (function manu() {
+//   console.log("manu")
+// })();
+// (() => console.log("mayank"))();
+
+//callback function
+
+// function manu(megha) {
+//   megha();
+// }
+// function megha() {
+//   console.log('manu')
+// }
+// manu(megha);
+
+function x(y) {
+  y();
+}
+function z() {
+  console.log('z')
+}
+x(z);
