@@ -32,9 +32,9 @@ let items = [
 ];
 console.log(items);
 
-//let item = items.find(function(item) { //callbck function => function inside another function known as callback();
-//return items.no===1; 
-//});
+// let item = items.find(function(item) { //callbck function => function inside another function known as callback();
+// return items.no===1; 
+// });
 
 let item = items.find(item => item.name === 'switch'); //arrow functions 
 
@@ -61,7 +61,7 @@ let manu = ['gunn', 'chacha'];
 let add = [...munn, ...manu]; // known as spread operator 
 console.log(add);
 
-//for-of loop se in only iterale arrays 
+//for-of loop se in only iterate arrays 
 let m = [1, 4, 6, 8];
 
 for (let value of m) {

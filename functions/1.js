@@ -106,11 +106,24 @@
 
     // const addOne = num => num + 1
     // console.log(addOne(5))
-    
+
     // const addTwo = (num1, num2) => num1 + num2
     // console.log(addTwo(5, 6))
-    
+
   //  IIFE  
     // (function(){
     //     console.log("manu")
     // })();
+
+    // there are mainly five types of function
+    // 1. Named function
+    // 2. Anonymous function
+    // 3. Arrow function
+    // 4. IIFE function
+    // 5. Generator function
+    // 6. Callback function
+    // 7. Higher order function
+    // 8. Pure function
+    // 9. Impure function
+    // 10. Recursive function
+    // 11. Currying function
