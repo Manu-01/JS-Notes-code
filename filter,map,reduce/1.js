@@ -34,38 +34,47 @@
 //differerce betweeen forEach and map
 
 //chaining of map and filter
-// const arr =[
-//     {
-//         id: 1,
-//         marks: 20,
-//         name: "manu"
-//     },
-//     {
-//         id: 1,
-//         marks: 70,
-//         name: "manzar" 
-//     },
-//     {
-//         id: 3,
-//         marks: 40,
-//         name: "mayank" 
-//     },
-//      {
-//         id: 4,
-//         marks: 80,
-//         name: "megha" 
-//     }, {
-//         id: 5,
-//         marks: 50,
-//         name: "mayanku" 
-//     }
-//    ]
-   
+const arr = [
+    {
+        id: 1,
+        marks: 20,
+        name: "manu"
+    },
+    {
+        id: 1,
+        marks: 70,
+        name: "manzar"
+    },
+    {
+        id: 3,
+        marks: 40,
+        name: "mayank"
+    },
+    {
+        id: 4,
+        marks: 80,
+        name: "megha"
+    }, {
+        id: 5,
+        marks: 50,
+        name: "mayanku"
+    }
+]
+
 //    const newArr = arr.filter((ar)=>{
 //        return ar.marks >=50 && ar.marks < 80
 //    }).reduce((acc,curr)=>{
 //        return acc.marks+curr.marks;
 //    })
-   
+
 //    console.log(newArr)
-   
+
+// const marks = arr.map((ar) => ar.name.toUpperCase())
+//     .filter((ary) => ary.startsWith('M'))
+
+// console.log(marks)
+
+const manu = arr.reduce((acc, curr) => {
+    return { marks: acc.marks + curr.marks };
+})
+console.log(manu)

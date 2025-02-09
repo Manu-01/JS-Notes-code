@@ -168,15 +168,15 @@
 // })();
 // (() => console.log("mayank"))();
 
-//callback function
+// callback function
 
-// function manu(megha) {
-//   megha();
-// }
-// function megha() {
-//   console.log('manu')
-// }
-// manu(megha);
+function manu(megha) {
+  megha();
+}
+function megha() {
+  console.log('manu')
+}
+manu(megha);
 
 function x(y) {
   y();
