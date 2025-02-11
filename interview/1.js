@@ -11,7 +11,7 @@
 // }
 // console.log(sum(1, 2, 5, 666))
 
-// //strict mode to avoid hoisting 
+// //strict mode to avoid hoisting
 
 // const obj1 = {
 //     name: "manu"
@@ -32,4 +32,8 @@
 //     [a]: b
 // }
 // console.log(obj);
+
+let arr = [1, 3, 4, [3, 4, 5], 4, 5]
+let New = console.log(arr.flat())
+console.log(New.map((num) => num * 2))
 

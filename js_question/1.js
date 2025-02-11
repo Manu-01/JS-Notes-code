@@ -54,5 +54,76 @@
 // }
 // console.log(Object.assign({}, obj1,obj2))
 
+// for (let i = 0; i < 5; i++) {
+//     setTimeout(function () {
+//         console.log(i);
+//     }, i * 1000)
+// }
 
+// var a = 10;
+// {
+//     var a = -10;
+
+// }
+// let b = a;
+// {
+//     let b = -20;
+
+// }
+
+// console.log(b)
+
+// function x(y) {
+//     y();
+//     console.log('manu');
+// }
+// function z() {
+//     console.log('manu');
+// }
+// x(z);
+
+// fetch("https://jsonplaceholder.typicode.com/todos/1")
+//     .then((response) => {
+//         return response.json();
+//     })
+//     .then((data) => {
+//         console.log(data);
+//     })
+//     .catch((error) => {
+//         console.log(error);
+//     })
+
+// async function getData() {
+//     let response = await fetch("https://jsonplaceholder.typicode.com/todos/1")
+//     let data = await response.json();
+//     console.log(data);
+// }
+// getData();
+
+// (function manzar() {
+//     console.log('manzar')
+// })();
+let obj = {
+    a: 10,
+    b: 20,
+    key: function () {
+        return { name: this.a, name2: this.b }
+    },
+    key1: function () {
+        const abc = () => {
+            return { name: this.a, name2: this.b }
+        }
+
+        return abc;
+    },
+}
+console.log(obj.key());
+console.log(obj.key1()());
+// let a = 'manu';
+// let b = 'megha';
+
+// let obj = {
+//     [a]: b
+// };
+// console.log(obj);
 

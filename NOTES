@@ -14,10 +14,13 @@
 // typeof(undefined)=>undefined
 // typeof(function)=function
 // typeof(object)=object
+// typeof(array)=object
+// typeof(NaN)=number
+// typeof(Infinity)=number
 
 // alert( Boolean(" ") ); spaces, also true (any non-empty string is true)
 
-// slice method did not take range(menas (1, 3) it will take from 1 to 2 only)and did not mak any changes in original array.
+// slice method did not take range(menas (1, 3) it will take from 1 to 2 only)and did not make any changes in original array.
 // ex->
 // const Myarr = [1, 2, 3, 4]
 // console.log(Myarr.slice(1, 3))

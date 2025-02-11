@@ -19,6 +19,8 @@
 // }
 
 // let var and const can be hoisted but in temporal dead zone
+// shadowing me var let ko same varoable name se declare kar sakte hai
+// but in illeagal shadowing me nahi kar sakte hai.
 
 // function abc() {
 //     console.log(a);  // hoiested
