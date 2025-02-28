@@ -33,7 +33,15 @@
 // }
 // console.log(obj);
 
-let arr = [1, 3, 4, [3, 4, 5], 4, 5]
-let New = console.log(arr.flat())
-console.log(New.map((num) => num * 2))
+// let arr = [1, 3, 4, [3, 4, 5], 4, 5]
+// let New = console.log(arr.flat())
+// console.log(New.map((num) => num * 2))
+
+const arr = [
+    { name: 'manu', id: 1, age: 23 },
+    { name: 'mayank', id: 2, age: 25 }
+]
+const obj1 = {
+    name: 'manu', id: 1, age: 23
+}
 

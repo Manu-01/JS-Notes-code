@@ -103,22 +103,22 @@
 // (function manzar() {
 //     console.log('manzar')
 // })();
-let obj = {
-    a: 10,
-    b: 20,
-    key: function () {
-        return { name: this.a, name2: this.b }
-    },
-    key1: function () {
-        const abc = () => {
-            return { name: this.a, name2: this.b }
-        }
+// let obj = {
+//     a: 10,
+//     b: 20,
+//     key: function () {
+//         return { name: this.a, name2: this.b }
+//     },
+//     key1: function () {
+//         const abc = () => {
+//             return { name: this.a, name2: this.b }
+//         }
 
-        return abc;
-    },
-}
-console.log(obj.key());
-console.log(obj.key1()());
+//         return abc;
+//     },
+// }
+// console.log(obj.key());
+// console.log(obj.key1()());
 // let a = 'manu';
 // let b = 'megha';
 
@@ -126,4 +126,9 @@ console.log(obj.key1()());
 //     [a]: b
 // };
 // console.log(obj);
+
+// const arr = [...'manu']
+// console.log(arr);
+
+// console.log(+"manu")
 

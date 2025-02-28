@@ -157,6 +157,7 @@
 //   console.log("manu")
 //   manu()
 // }
+// manu();
 
 // 11. Currying function
 // function manu(a, b) {
@@ -170,18 +171,42 @@
 
 // callback function
 
-function manu(megha) {
-  megha();
-}
-function megha() {
-  console.log('manu')
-}
-manu(megha);
+// function manu(megha) {
+//   megha();
+// }
+// function megha() {
+//   console.log('manu')
+// }
+// manu(megha);
 
-function x(y) {
-  y();
-}
-function z() {
-  console.log('z')
-}
-x(z);
+// function x(y) {
+//   y();
+// }
+// function z() {
+//   console.log('z')
+// }
+// x(z);
+
+// function abc() {
+//   console.log(abc.xyz)
+// }
+// abc()
+
+// abc.xyz = 400;
+// abc.xyz = 200;
+// abc();
+
+// const username = {
+//   name: "manu",
+//   fn1: () => {
+//     console.log(this.name)  // it will not work as this is pointing to global object
+//   },
+//   fn2: function f2() {
+//     console.log(this.name) // this will work normally
+//   },
+// };
+
+// username.fn1();
+// username.fn2();
+
+// this will always point to thier parent funcion().
