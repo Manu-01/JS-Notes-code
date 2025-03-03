@@ -84,3 +84,49 @@
 // Object.keys()
 // Object.values()
 // Object.entries()
+
+// {
+//     results: [
+//         {
+//             gender: 'male',
+//             name: [Object],
+//             location: [Object],
+//             email: 'vincent.brown@example.com',
+//             login: [Object],
+//             dob: [Object],
+//             registered: [Object],
+//             phone: '(805)-933-6662',
+//             cell: '(694)-306-6435',
+//             id: [Object],
+//             picture: [Object],
+//             nat: 'NZ'
+//         }
+//     ]
+
+// }
+
+
+// function sum(a) {
+//     return function (b) {
+//         return function (c) {
+//             return a + b + c
+//         };
+//     };
+// }
+// console.log(sum(2)(3)(5))
+
+function sum(a) {
+    return function (b) {
+        if (b) return sum(a + b);
+        return a;
+    };
+}
+console.log(sum(2)(4)(4)(5)()()());
+
+function add(a) {
+    return function (b) {
+        if (b) return add(a + b);
+        return a;
+    };
+}
+console.log(add(2)(3)(4)(6)());

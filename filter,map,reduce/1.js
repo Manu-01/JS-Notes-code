@@ -69,12 +69,13 @@ const arr = [
 
 //    console.log(newArr)
 
-// const marks = arr.map((ar) => ar.name.toUpperCase())
-//     .filter((ary) => ary.startsWith('M'))
+const marks = arr
+    .map((ar) => ar.name.toUpperCase())
+    .filter((ary) => ary.startsWith('M'))
 
-// console.log(marks)
+console.log(marks)
 
-const manu = arr.reduce((acc, curr) => {
-    return { marks: acc.marks + curr.marks };
-})
-console.log(manu)
+// const manu = arr.reduce((acc, curr) => {
+//     return { marks: acc.marks + curr.marks };
+// })
+// console.log(manu)
