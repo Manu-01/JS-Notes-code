@@ -132,3 +132,23 @@
 
 // console.log(+"manu")
 
+const testFun = async () => {
+    const res = await Promise.resolve('promise resolved');
+    return res;
+
+}
+
+// testFun().then((res) => console.log(res))
+//     .catch((err) => console.log(err))
+
+// const ans = async () => {
+//     try {
+//         const response = await testFun();
+//         console.log(response);
+//     } catch (error) {
+//         console.log(error);
+//     }
+// }
+
+// ans()
+

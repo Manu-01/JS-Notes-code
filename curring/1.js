@@ -44,4 +44,22 @@ function add(a) {
         return a;
     };
 }
-console.log(add(2)(3)(4)(6)());
+// console.log(add(2)(3)(4)(6)());
+
+// const ans = (function mul(a) {
+//     return (function (b) {
+//         return (function (c) {
+//             return a * b * c
+//         })(30)
+//     })(20)
+// })(10);
+
+// console.log(ans)
+
+// (function (x) {
+//     console.log(x);
+//     return (function () {
+//         console.log(x);
+//         x = 30;
+//     })()
+// })(10)

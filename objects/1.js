@@ -106,27 +106,3 @@
 // }
 
 
-// function sum(a) {
-//     return function (b) {
-//         return function (c) {
-//             return a + b + c
-//         };
-//     };
-// }
-// console.log(sum(2)(3)(5))
-
-function sum(a) {
-    return function (b) {
-        if (b) return sum(a + b);
-        return a;
-    };
-}
-console.log(sum(2)(4)(4)(5)()()());
-
-function add(a) {
-    return function (b) {
-        if (b) return add(a + b);
-        return a;
-    };
-}
-console.log(add(2)(3)(4)(6)());

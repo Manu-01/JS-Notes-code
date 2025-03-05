@@ -1,4 +1,3 @@
-// let var const
 // let and const are block scope
 // var is function scope
 

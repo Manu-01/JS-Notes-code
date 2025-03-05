@@ -7,7 +7,7 @@
 // }
 // addTwo(5,6) -> argument
 
-// when function call then we pass argume
+// when function call then we pass arguments
 // if we do not return anyting in fucntion it will cosnole undefined ,ex- console.log(functioncall)
 
 // function logOutMessage(username) {
@@ -210,3 +210,14 @@
 // username.fn2();
 
 // this will always point to thier parent funcion().
+
+// function x() {
+//     console.log("manu");
+// }
+// function z(x) {
+//     x()
+//     console.log("mayank");
+// }
+// z(x)
+
+
