@@ -63,3 +63,13 @@ function add(a) {
 //         x = 30;
 //     })()
 // })(10)
+
+
+// function  add(a) {
+//     return function(b){
+//         return function (c){
+//             return a+b+c;
+//         }
+//     }
+// }
+// console.log(add(12)(-23)(+"23"))
